@@ -1,7 +1,3 @@
-Here’s a **clean, professional README** you can directly use (or slightly adapt) as the **main landing README** for your AI portfolio repo. It’s written with **credibility, clarity, and long-term growth** in mind—exactly what recruiters, collaborators, and researchers look for when they open a profile repo.
-
----
-
 # 🧠 AI Portfolio — Applied & Research Projects
 
 This repository is a **living portfolio** of my work in **Artificial Intelligence, Machine Learning, and Edge AI**.
