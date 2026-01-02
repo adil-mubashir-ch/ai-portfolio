@@ -1,123 +1,147 @@
-Here’s a **short, clean README** tailored exactly to this code and suitable for an **Agentic AI / ADK demo project**.
+# 🧠 AI Portfolio — Applied & Research Projects
 
-You can save it as:
+This repository is a **living portfolio** of my work in **Artificial Intelligence, Machine Learning, and Edge AI**.
+It consolidates my **practice projects, research experiments, and production-oriented prototypes** into a single, well-structured codebase.
 
-```
-agentic-ai/weather-time-agent/README.md
-```
+The goal of this repository is threefold:
 
----
-
-# 🌦️ Weather & Time Agent (ADK)
-
-This project demonstrates a **simple agentic AI system** built using **Google ADK**.
-The agent can answer user questions about:
-
-* 🌤️ **Weather**
-* 🕒 **Current time**
-
-for supported cities (currently **New York**).
-
-The purpose of this project is to showcase:
-
-* Tool-using agents
-* Function calling
-* Basic agent orchestration using ADK
+1. **Demonstrate depth** in modern AI techniques through hands-on implementation
+2. **Document learning** with reproducible experiments and clean code
+3. **Showcase applied + research-oriented thinking** suitable for real-world deployment
 
 ---
 
-## 🧠 How It Works
+## 👨‍🎓 About Me
 
-The agent is configured with:
+I hold a **Bachelor’s in Electrical Engineering (Computer Engineering major)** and am currently pursuing a **Master’s in Artificial Intelligence**.
+My primary interests lie at the intersection of:
 
-* A language model (`gemini-2.5-flash-lite`)
-* Two tools:
+* **Edge AI & TinyML**
+* **Computer Vision**
+* **Robotics & Embodied AI**
+* **Generative AI & Agentic Systems**
+* **Model Compression (Quantization, KD, Pruning)**
+* **Quantum Machine Learning (research-focused)**
 
-  * `get_weather(city)`
-  * `get_current_time(city)`
-
-Based on the user query, the agent decides **which tool to invoke** and returns a structured response.
+This repository reflects both **industry-relevant engineering** and **academic research rigor**.
 
 ---
 
-## 📂 Project Structure
+## 📂 Repository Structure
+
+Projects are organized **by topic**, not by time, making it easy to navigate and evaluate skills in a specific domain.
 
 ```
-weather-time-agent/
+ai-portfolio/
 │
-├── agent.py              # Agent definition and tools
-├── requirements.txt      # Python dependencies
+├── computer-vision/
+│   ├── image-classification/
+│   ├── object-detection/
+│   └── vision-on-edge/
+│
+├── edge-ai-tinyml/
+│   ├── model-quantization/
+│   ├── knowledge-distillation/
+│   ├── tflite-deployment/
+│   └── embedded-inference/
+│
+├── generative-ai/
+│   ├── llm-inference/
+│   ├── prompt-engineering/
+│   └── agentic-systems/
+│
+├── machine-learning/
+│   ├── classical-ml/
+│   ├── feature-engineering/
+│   └── optimization-techniques/
+│
+├── deep-learning/
+│   ├── cnn-architectures/
+│   ├── training-strategies/
+│   └── performance-analysis/
+│
+├── quantum-ml/
+│   ├── qml-experiments/
+│   └── research-replication/
+│
+├── robotics/
+│   ├── perception/
+│   ├── control/
+│   └── autonomy/
+│
+├── utils/
+│   ├── data-loaders/
+│   ├── evaluation-metrics/
+│   └── visualization/
+│
 └── README.md
 ```
 
----
+Each subproject contains:
 
-## ⚙️ Setup Instructions
+* A **clear problem statement**
+* **Reproducible experiments**
+* **Results & observations**
+* **Future improvements**
 
-### 1️⃣ Create a Virtual Environment
-
-```bash
-python -m venv .venv
-```
-
-Activate it:
-
-**Linux / macOS**
-
-```bash
-source .venv/bin/activate
-```
-
-**Windows**
-
-```bash
-.venv\Scripts\activate
-```
 
 ---
 
-### 2️⃣ Install Dependencies and Create .env file
+## 🚀 Highlighted Focus Areas
 
-```bash
-pip install -r requirements.txt
-```
+### 🔹 Edge AI & Model Compression
 
-Add the .env file into your multi_tool_agent folder
-```bash
-GOOGLE_GENAI_USE_VERTEXAI=FALSE
-GOOGLE_API_KEY=PASTE_YOUR_ACTUAL_API_KEY_HERE
-```
+* Quantization-aware training (LSQ, low-bit regimes)
+* Knowledge distillation (single & multi-teacher)
+* Deployment on resource-constrained devices
 
----
+### 🔹 Computer Vision
 
-### 3️⃣ Run the ADK Web Interface
+* CNN architectures (ResNet variants, efficient models)
+* Object detection pipelines
+* Performance–accuracy trade-offs
 
-From the **root folder** of the project:
+### 🔹 Generative & Agentic AI
 
-```bash
-adk web
-```
+* LLM inference optimization
+* Tool-using agents
+* Production-oriented agent pipelines
 
-This will start the local ADK web UI where you can interact with the agent.
+### 🔹 Quantum Machine Learning
 
----
-
-## 🧪 Example Queries
-
-Try asking the agent:
-
-* *“What’s the weather in New York?”*
-* *“What time is it in New York?”*
-* *“Tell me the weather and time in New York”*
-
-Unsupported cities will return a graceful error response.
+* Variational circuits
+* Hybrid classical–quantum models
+* Research replication and analysis
 
 ---
 
-## 🎯 Purpose of This Example
+## 📈 Continuous Updates
 
-This is an intentionally **minimal agent** designed to:
+This repository is **actively maintained** and will grow as I:
 
-* Demonstrate tool calling
-* Show how agents decide actions
-* Serve as a starter template for more advanced agentic systems
+* Explore new research ideas
+* Replicate recent papers
+* Build production-grade AI systems
+* Deploy models on real hardware
+
+Expect:
+
+* Refactors
+* Experiment extensions
+* Performance improvements
+* Documentation updates
+
+---
+
+## 📬 Contact & Collaboration
+
+If you’re interested in:
+
+* Research collaboration
+* Industry opportunities
+* Freelance or consulting work
+* Technical discussions
+
+Feel free to reach out!
+
+Feel free to reach out via **LinkedIn** or open a discussion on this repository.
