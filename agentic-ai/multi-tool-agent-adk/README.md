@@ -76,13 +76,13 @@ source .venv/bin/activate
 
 ---
 
-### 2️⃣ Install Dependencies and Create .env file
+### 2️⃣ Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Add the .env file into your multi_tool_agent folder
+Create .env file in the multi_tool_agent folder add following details
 ```bash
 GOOGLE_GENAI_USE_VERTEXAI=FALSE
 GOOGLE_API_KEY=PASTE_YOUR_ACTUAL_API_KEY_HERE
