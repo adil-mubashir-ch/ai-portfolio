@@ -1,13 +1,3 @@
-Here’s a **short, clean README** tailored exactly to this code and suitable for an **Agentic AI / ADK demo project**.
-
-You can save it as:
-
-```
-agentic-ai/weather-time-agent/README.md
-```
-
----
-
 # 🌦️ Weather & Time Agent (ADK)
 
 This project demonstrates a **simple agentic AI system** built using **Google ADK**.
