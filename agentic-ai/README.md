@@ -1,14 +1,3 @@
-Here’s a **clear, forward-looking README** for an **`agentic-ai/`** folder that fits your portfolio style and signals *production + research maturity*.
-It’s written so both **engineers** and **research-minded reviewers** immediately understand what you’re building and *why*.
-
-You can save this as:
-
-```
-agentic-ai/README.md
-```
-
----
-
 # 🤖 Agentic AI
 
 This directory contains my work on **Agentic AI systems**—AI systems that **plan, reason, act, and adapt** by interacting with tools, environments, and other agents rather than producing single-shot outputs.
